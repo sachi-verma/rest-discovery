@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-discovery",
+  "version": "1.0.0",
+  "description": "internship-task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachi-verma/restaurant-discovery.git"
+  },
+  "author": "Sachi Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachi-verma/restaurant-discovery/issues"
+  },
+  "homepage": "https://github.com/sachi-verma/restaurant-discovery#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

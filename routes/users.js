@@ -36,4 +36,15 @@ router.post('/', async(req,res) => {
     }
 })
 
+router.patch('/:id', async(req,res) => {
+    try{
+        const user = await User.findById(req.params.id)
+        user.name = req.body.name
+        const u1 = await user.save()
+        res.json(u1)
+    }catch(err){
+        res.send('Error')
+    }
+})
+
 module.exports = router
